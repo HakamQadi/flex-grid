@@ -252,18 +252,107 @@
 
 /* Ex.4 */
 
+.ex4Container {
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(7, 100px);
+    grid-template-columns: repeat(8, minmax(100px, 1fr));
+    gap: 10px 5px;
+    grid-template-areas:
+        'header header header header header header header header'
+        'header header header header header header header header'
+        'aside aside nav nav nav nav nav nav'
+        'aside aside article article article article article article'
+        'aside aside article article article article article article'
+        'aside aside article article article article article article'
+        'footer footer footer footer footer footer footer footer ';
+}
+
+.ex4Header {
+    color: white;
+    padding-left: 100px;
+    grid-area: header;
+    background-color: #393f4d;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.link {
+    justify-self: end;
+}
+
+.ex4Nav {
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: nav;
+    background-color: #ff7755;
+}
+
+.ex4Aside {
+    grid-area: aside;
+    background-color: #ff7755;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.ex4Box {
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+}
+
+.ex4Article {
+    padding-left: 0px;
+    padding-right: 0px;
+    /* gap: 0px 0px; */
+    grid-area: article;
+    background-color: #bccbde;
+    display: grid;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.articleCard {
+    width: 200px;
+    height: 150px;
+    display: grid;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    /* border: 4px solid black; */
+    background-color: white;
+}
+
+.ex4Footer {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: white;
+    grid-area: footer;
+    background-color: #393f4d;
+}
 
 
+/* Ex.5 */
 
-
-
-
-
-
-
-
-
-
+.ex5Container{
+    
+}
 
 
 /* 
