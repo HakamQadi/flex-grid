@@ -1,0 +1,432 @@
+/* EX1 */
+
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid blue;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid yellow;
+    text-align: center;
+
+
+
+}
+
+/* EX2 */
+
+.ex2Container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    align-items: center;
+
+}
+
+.ex2Item-1 {
+    padding: 10px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.ex2Item-2 {
+    background-color: aqua;
+    padding: 1px;
+
+}
+
+.ex2Item-3 {
+    padding: 10px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+
+}
+
+.item-1DIV {
+    padding: 1px;
+    background-color: yellow;
+
+}
+
+/* Ex3 */
+
+.navBar {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* background-color: red; */
+}
+
+.menuBar {
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.notify {
+    /* width: 100px; */
+    /* background-color: green; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1em;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #653299;
+    padding-right: 10px;
+
+}
+
+.menuLIST {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuLIST li {
+    color: #9687a3;
+    float: left;
+    padding-right: 10px;
+}
+
+.notifyBar {
+    color: white;
+    background-color: #653299;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    /* padding: 20px; */
+    background-color: #653299;
+    border-radius: 50%;
+
+}
+
+/* EX4 */
+
+.header {
+
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+
+.body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    /* border: 2px solid white; */
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.five {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.six {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.footer {
+
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #7f7fff;
+}
+
+/* Ex.5 */
+
+.googleBAR {
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* background-color: blue; */
+    height: 50px;
+}
+
+.gmail {
+    color: white;
+    /* background-color: green; */
+
+}
+
+.images {
+    color: white;
+
+    /* background-color: green; */
+
+}
+
+/* .appMenu {
+    background-color: green;
+
+}  */
+
+.profile {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.googleIMG img {
+    width: 400px;
+}
+
+.searchBAR {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: 1px solid #5a5e63;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.micNcamera {
+    display: flex;
+    gap: 10px;
+
+}
+
+.actionBTNs {
+    padding-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.searchBTN {
+    background-color: #303134;
+    color: white;
+    text-align: center;
+    width: 117px;
+    padding: 8px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+.luckBTN {
+    background-color: #303134;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+
+}
+
+.txt {
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: #4285f4;
+    font-weight: bolderx;
+    font-size: large;
+}
+
+/* Ex.6 */
+
+.bar {
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color: #8b008b;
+}
+
+.mainCONTAIER {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.aside {
+    background-color: #4169e1;
+
+    width: 350px;
+}
+
+.cardsContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    /* background-color: #303134; */
+    flex-wrap: wrap;
+    /* width: 40%; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.card {
+    box-shadow: 1px 1px 6px  gray;
+    border: 2px solid gray;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+/* 
+.card2 {
+    width: 300px;
+    padding: 10px;
+    background-color: #8b008b;
+}
+
+.card3 {
+    width: 300px;
+    padding: 10px;
+    background-color: green;
+}
+
+.card4 {
+    width: 300px;
+    padding: 10px;
+    background-color: brown;
+}
+
+.card5 {
+    background-color: darkslategray;
+    width: 300px;
+    padding: 10px;
+}
+
+.card6 {
+    background-color: darkcyan;
+    width: 300px;
+    padding: 10px;
+} */
